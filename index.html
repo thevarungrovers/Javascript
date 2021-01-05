@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+</head>
+<body>
+   
+    <div id="wrapper">
+ <!-- To change text -->
+    <div id="demo">
+        <h2>A javascript </h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque facilis necessitatibus consequatur? Ut alias optio dolore non, voluptate voluptatem magni numquam, fuga dolorem facere, rem natus odio in tempore consectetur?</p>
+        <button onclick="changetext()">Change text</button>
+    </div>
+    <hr>
+    <br>
+
+    <!-- to change src attribute | image changer -->
+    <div class="image">
+        <button onclick="changeimg()">Change image</button>
+        <br>
+        <img id="image" height="200px" src="images/instagram.png" alt="">
+        <br>
+        <button onclick="changeimgagain()">Change image again</button>
+        <br>
+    </div>
+<hr>
+
+<!-- change img size | to change CSS  -->
+<div class="cngstyle">
+    <button onclick="incimg()">Decrease image</button>
+        <br>
+        <img id="imagesize" height="200px" src="images/instagram.png" alt="">
+        <br>
+        <button onclick="decimg()" >Increase image</button>
+</div>
+<hr>
+<!-- size inc/dec by some px -->
+<div class="Zoom">
+    <button onclick="zoomin()">Increase</button>
+    <button  onclick="zoomout()">Decrease</button>
+    <img  id="sky" src="https://www.flaticon.com/svg/static/icons/svg/919/919827.svg" height="250px" alt="">
+
+</div>
+<hr>
+
+<!-- Show/Hide text -->
+<div class="div">
+    <button onclick="Hidetext()">Hide</button>
+    <button onclick="Showtext()">Show</button>
+    <p id="textCng">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione vitae voluptate soluta odio optio? Adipisci delectus architecto illum ducimus repellendus ut asperiores. Dicta accusantium minus placeat eos at corrupti illo.</p>
+</div>
+
+<hr>
+
+<!-- Alert option -->
+<div class="alert">
+    <button onclick="showalert()">Show Alert</button>
+</div>
+
+<hr>
+
+<!-- print in console -->
+<div class="printcon">
+    <button onclick="printconsole()">Console Print</button>
+</div>
+<hr>
+
+<!-- to replace whole text -->
+<div class="writewhole">
+    <button onclick="replacewhole()">Replace whole</button>
+</div>
+<hr>
+
+<!-- Date and time  -->
+<div >
+<button onclick="dateprint()">
+    Click here to check time
+</button>
+<p id="dateprints"></p>
+</div>
+<hr>
+
+<!-- replace anything -->
+<div class="replaceany">
+    <button onclick="this.innerHTML = 'Hello'">Replace</button>
+</div>
+
+<hr>
+
+<!-- hover effet -->
+<div class="hovereff">
+    <p id="effhov" onmouseover="mousehover()" onmouseout="mousehoveroff()">Hello world!</p>
+</div>
+<hr>
+</div>
+
+
+<!-- alert for copy -->
+<div>
+    <p oncopy="copytext()" id="textcopy">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, quia debitis? Dolorum placeat, rem maxime a minus hic vitae aliquid voluptate obcaecati aut ab consequatur cumque odit ratione amet eaque.</p>
+</div>
+
+
+
+
+
+
+
+    <!-- js -->
+    <script src="js/app.js"></script>
+</body>
+</html>
